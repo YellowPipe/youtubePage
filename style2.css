@@ -161,21 +161,36 @@ iframe {
 
 }
 
-.rightSide{
-	width: 30%;
-	float: left;
-	
-}
-
-
-
 .vid div{
 	display: inline;
 }
 
-
+/*-----------------------comment*/
+.comments{
+	box-sizing: border-box;
+}
+.comments img{
+    float : left;
+    clear : both;
+}
+.comments h5 {
+	padding : 5px;
+	margin  : 0;
+}
+.comments p {
+	margin-top: 0;
+	margin-left: 40px;
+	font-size: 12px;
+	font-family: Arial;
+}
+span {
+	margin-left : 5px;
+	margin-right : 5px;
+	color : gray;
+}
+/*-----------------------comment*/
 .comments *{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 .suggestionImg {
