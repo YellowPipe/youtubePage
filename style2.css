@@ -91,7 +91,7 @@ main {
 }
 
 .leftSide {
-	width: 70%;
+	width: 71%;
 	float: left;
 
 }
@@ -156,13 +156,33 @@ iframe {
 
 
 .rightSide{
-	width: 20%;
-	float: left;
-
+	width: 25%;
+	float: right;
+	margin-right: 50px;
 }
 
-.vid div{
-	display: inline;
+.vid {
+    overflow: auto;
+    margin-bottom: 10px ;
+}
+.suggestionImg {
+	float: left;
+}
+
+.suggestionImg img {
+    display: block;
+    vertical-align: top;
+}
+
+.suggestionText {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.suggestionText h5{
+	font-size: 20px;
+	margin: 0;
 }
 
 /*-----------------------comment*/
@@ -193,12 +213,6 @@ span {
 	/*border: 1px solid red;*/
 }
 
-.suggestionImg {
-	clear: both;
-}
-.suggestionText {
-	float: right;
-}
 
 #mainInfoAuthor *{
 	display: inline-block;
