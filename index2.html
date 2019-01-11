@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Youtube</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 
@@ -12,24 +13,29 @@
      <!----------------Start the Header  -->
      <header>
 
-     	<button ><i class="fa fa-bars" ></i></button>
 
-		<div id = "youtubeTitle">
-			  <button ><i class="fa fa-youtube" ></i></button>
+		<div id = "youtubeTitleAll">
+			<div id='youtubeTitleIcons'>
+	     		<i class="fa fa-bars icon" ></i>
+<!-- 				<i id='yotubeMainIcon' class="fa fa-youtube icon" ></i> -->
+				<i id='yotubeMainIcon' class="fab fa-youtube"></i>
+			</div>
+			<div id='youtubeTitle'>
 			  <h1>Youtube</h1>
+			</div>
 		</div>
 		
 		<div id='searchbar'>
-
 		     <input type="text" name="search" placeholder="Search" size = "50">
 		     <button type="submit" ><i class="fa fa-search" ></i></button>
 		<div>
 
-		<div class = "moreIcons">
-			  <button type="submit" ><i class="fa fa-search" ></i></button>
-			  <button type="submit" ><i class="fa fa-search" ></i></button>
-			  <button type="submit" ><i class="fa fa-search" ></i></button>
-			  <button type="submit" ><i class="fa fa-search" ></i></button>
+		<div id = "moreIcons">
+			<i class="fas fa-video icon"></i>
+			<i class="fas fa-th icon"></i>
+			<i class="fas fa-comment icon"></i>
+			<i class="fas fa-bell icon"></i>
+			<img class="profileImg" src="profilePic.png" alt='profile image'>
 		</div>
 
 	</header>
@@ -83,7 +89,7 @@
 
 
      		<div class = "comments">
-     			 <img src="" alt="profileImg">
+     			 <img class="profileImg" src="profilePic.png" alt="profileImg">
      			 <p>pseudo name</p>
      			 <p>comment</p>
      		</div>
