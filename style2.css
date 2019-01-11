@@ -96,48 +96,95 @@ main {
 
 }
 
+/*main *{
+	border: 1px solid red;
+}*/
+
+#videoSection {
+	width : 900px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
 iframe {
 	width : 883px;
     height: 450px;
     margin: 0 auto;
     display : block;
 }
-.videosec {
 
-}
-#name-views{
-	/*padding : 50px;*/
-    float : left;
-    margin-left : 35px;
-}
-
-#likes{
+#video-buttons{
 	margin : 0;
 	padding : 0;
 }
-#likes * {
-	padding : 20px;
+#video-buttons * {
+	font-size: 18px;
+	margin: -10px 10px 10px 0;
 	display : inline-block;
+	color: grey;
 }
-.views-but{
-	width : 800px;
-	display : block;
+
+#video-buttons p {
+	float: right;
+	margin-top: -20px;
 }
-#video-buttons{
-    
-	float : left;
-}
-#video-buttons button {
-	float : right;
-}
-.rightSide{
-	width: 30%;
+
+#video-buttons h3 {
 	float: left;
 }
 
 
-
-.vid {
-	float: right;
+.views-sec{
+	width : 800px;
 	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#video-buttons{
+	float : left;
+	width: 100%
+
+}
+
+
+#video-buttons button {
+	float : right;
+	margin-right: 200px; 
+}
+
+
+.rightSide{
+	width: 20%;
+	float: left;
+
+}
+
+.rightSide{
+	width: 30%;
+	float: left;
+	
+}
+
+
+
+.vid div{
+	display: inline;
+}
+
+
+.comments *{
+	border: 1px solid red;
+}
+
+.suggestionImg {
+	clear: both;
+}
+.suggestionText {
+	float: right;
+}
+
+#mainInfoAuthor *{
+	display: inline-block;
 }
