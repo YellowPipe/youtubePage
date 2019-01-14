@@ -1,5 +1,7 @@
 /********   Start Header ********/
-
+body {
+	font-family: Roboto;
+}
 
 header {
 	position: fixed;
@@ -10,7 +12,7 @@ header {
 	background-color: white;
 	width  : 100%;
 	text-align: center;
-	border-bottom: 2px solid #DCE3E6
+	border-bottom: 2px solid #e9e9f1;
 }
 
 header * {
@@ -20,45 +22,50 @@ header * {
 }
 
 
-#youtubeTitleAll {
+.youtubeTitleAll {
 	position: absolute;
 	left: 10px;
 	margin-top: -5px;
 	margin-left: 10px;
 }
 
-#youtubeTitle {
+.youtubeTitle {
 	font-size: 10px;
 }
 
-#youtubeTitleIcons {
-	font-size: 23px;
+.youtubeTitleIcons {
+	font-size: 20px;
+	margin-top: 20px;
 }
 
-#yotubeMainIcon {
+.red {
+	color: red;
+}
+
+.yotubeMainIcon {
 	margin-right: 0;
 	color: red;
 }
 
-#moreIcons {
+.moreIcons {
 	position: absolute;
 	right: 10px;
-	top: 0px;
-	font-size: 22px;
-
+	top: 0;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
 .icon {
-		margin-right: 20px;
+		margin-right: 30px;
 		color: grey;
 		cursor: pointer;
 }
 
 
-#moreIcons .icon {
+.moreIcons .icon {
 		position: relative;
 		top: -19px;
-		right: 0px;
+		right: 0;
 }
 
 .profileImg {
@@ -69,21 +76,21 @@ header * {
 	cursor: pointer;
 }
 
-#channelLogo {
+.channelLogo {
 	width: 45px;
 	height: 45px;
 }
 
-#searchbar {
+.searchbar {
 	margin-top: 5px;
 }
 
-#searchbar input{
+.searchbar input{
 	padding: 8px 100px 8px 5px;
 	font-size: 15px;
 }
 
-#searchbar button {
+.searchbar button {
 font-size: 14px;
 padding: 0 25px;
 margin-left: -4px;
@@ -99,48 +106,48 @@ main {
 }
 
 .leftSide {
-	width: 71%;
+	width: 60%;
 	float: left;
-
+	margin-left: 30px;
 }
 
 /*main *{
 	border: 1px solid red;
 }*/
 
-#videoSection {
-	width : 900px;
+.videoSection {
+	width : 800px;
 	display: block;
 	margin: 0 auto;
 	padding: 0;
 }
 
 iframe {
-	width : 883px;
+	width : 800px;
     height: 450px;
     margin: 0 auto;
     display : block;
 }
 
-#video-buttons{
+.video-buttons{
 	margin : 0;
 	padding : 0;
 	border-bottom: 1px solid grey;
 	margin-bottom: 15px;
 }
-#video-buttons * {
-	font-size: 18px;
+.video-buttons * {
+	font-size: 16px;
 	margin: -10px 10px 10px 0;
 	display : inline-block;
 	color: grey;
 }
 
-#video-buttons p {
+.video-buttons p {
 	float: right;
-	margin-top: -20px;
+	margin-right: 30px;
 }
 
-#video-buttons h3 {
+.views {
 	float: left;
 }
 
@@ -152,10 +159,15 @@ iframe {
 	padding: 0;
 }
 
-#video-buttons{
+.video-buttons{
 	float : left;
-	width: 100%
-
+	width: 100%;
+}
+.video-buttons p{
+	cursor: pointer;
+}
+.videoSection h2{
+	font-size: 18px;
 }
 
 .underVideo {
@@ -163,44 +175,65 @@ iframe {
 }
 
 
-#video-buttons button {
+.video-buttons button {
 	float : right;
 	margin-right: 200px; 
 }
 
-#mainInfoAuthor {
+.mainInfoAuthor {
 /*	display: inline;*/
 	width: 100%;
 }
 
-#mainInfoAuthor *{
-	display: inline-block;}
+.mainInfoAuthor *{
+	display: inline-block;
+	vertical-align: top;
+}
 
-#description {
-	width: 90%;
-	margin: 10px auto;
+.published {
+	margin-top: -30px;
+	color: grey;
+	font-size: 13px;
+	display: block;
+}
+
+.description {
+	width: 85%;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.description p {
+	margin-top: 0;
+}
+
+.categoryDiv {
+	/*vertical-align: top;*/
+	width: 35%;
 }
 
 .category {
 	display: inline-block;
-	width: 15%;
 }
 
 .blue {
 	color: blue;
 	cursor: pointer;
+	float: right;
+	font-weight: bold;
 }
 
-#channelLogo {
+.channelLogo {
 	vertical-align: middle;
 }
 
-#logoAndName h2 {
+.AuthorName {
 	margin-top: 0;
 	margin-bottom: 30px;
 }
 
-#subscribe {
+.subscribe {
 	float: right;
 	font-size: 15px;
 	color: white;
@@ -212,7 +245,7 @@ iframe {
 
 
 .rightSide{
-	width: 25%;
+	width: 32%;
 	float: right;
 	margin-right: 50px;
 }
@@ -222,24 +255,26 @@ iframe {
     margin-bottom: 10px ;
 }
 
-.vid h2{
+.Next{
     font-size: 15px;
-    margin-top: 0px; 
+    margin-top: 0; 
     font-weight: normal;
 }
 
-#firstSuggestion {
+.firstSuggestion {
 	border-bottom: 1px solid grey;
 	padding-bottom: 10px;
 }
 
 .suggestionImg {
 	float: left;
+
 }
 
 .suggestionImg img {
     display: block;
-    vertical-align: top;
+    width: 180px;
+	height: 100px;
 }
 
 .suggestionText {
@@ -256,7 +291,7 @@ iframe {
 	font-size: 13px;
 }
 
-.suggestionText h5{
+.suggestionName{
 	margin: 0;
 	font-size: 14px;
 }

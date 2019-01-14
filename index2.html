@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Youtube</title>
@@ -11,94 +11,77 @@
 
 
 <body>
-     <!----------------Start the Header  -->
      <header>
-
-
-		<div id = "youtubeTitleAll">
-			<div id='youtubeTitleIcons'>
+		<div class=youtubeTitleAll>
+			<div class='youtubeTitleIcons'>
 	     		<i class="fa fa-bars icon" ></i>
-<!-- 				<i id='yotubeMainIcon' class="fa fa-youtube icon" ></i> -->
-				<i id='yotubeMainIcon' class="fab fa-youtube"></i>
+				<i  class="fab fa-youtube red"></i> <!-- class='yotubeMainIcon' -->
 			</div>
-			<div id='youtubeTitle'>
+			<div class='youtubeTitle'>
 			  <h1>Youtube</h1>
 			</div>
 		</div>
-		
-		<div id='searchbar'>
+		<div class='searchbar'>
 		     <input type="text" name="search" placeholder="Search" size = "50">
 		     <button type="submit" ><i class="fa fa-search" ></i></button>
-		<div>
-
-		<div id = "moreIcons">
+		</div>
+		<div class = "moreIcons">
 			<i class="fas fa-video icon"></i>
 			<i class="fas fa-th icon"></i>
 			<i class="fas fa-comment icon"></i>
 			<i class="fas fa-bell icon"></i>
 			<img class="profileImg" src="profilePic.png" alt='profile image'>
 		</div>
-
 	</header>
-     <!----------------End of the Header -->
 
-
-     <!----------------Start the main section  -->
      <main>
-
      	<div class = "leftSide">
-
-     		<div id = "videoSection">
-
+     		<div class = "videoSection">
      			<iframe  src="https://www.youtube.com/embed/ZnuwB35GYMY"  allow ="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-				     <h2>Video Name</h2>
-                
-                    <div id='video-buttons'>
-							<h3>13223 views</h3>
-							<p><i class = "fa fa-hand-o-up"></i>400</p>
-							<p><i class = "fa fa-hand-o-down"></i>400</p>
-							<p><i class = "fa fa-share"></i>Share</p>
-							<p><i class = "fa fa-save"></i>Save</p>
-				    </div> <!-- videoButtons -->
-				    <div class = "underVideo">
-
-                 <div id='author'>
-                 	        <div id='mainInfoAuthor'>
-                 	        	<div id='logoAndName'>
-		                 	        <img id='channelLogo' class="profileImg" src="profilePic.png" alt = "logo">
-		                 	        <h2>Author Name</h2>
-								</div>
-								<button id='subscribe'>SUBSCRIBE 705</button> 
-							</div> <!-- mainInfAuthor -->
-
-                            <div id='description'><p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at <a href="http://theodinproject.com">http://theodinproject.com</a>.</p>
-					        <p class='category'>Category:</p>
-					        <p class='category blue'>Science and Tech</p>
-					       </div> <!-- description -->
-
-				</div> <!-- author -->
-
-     		</div>  <!-- underVideo -->
+				<h2>Contributing to Open Source Part I: The Easy Way</h2>
+                <div class='video-buttons'>
+					<h3 class='views'>13 223 views</h3>
+					<p><i class="fas fa-ellipsis-h floating"></i></p>
+					<p><i class = "fa fa-save floating"></i>Save</p>
+					<p><i class = "fa fa-share floating"></i>Share</p>
+					<p><i class = "fa fa-thumbs-down floating"></i>400</p>
+					<p><i class = "fa fa-thumbs-up floating"></i>400</p>
+				</div>
+				<div class = "underVideo">
+                 	<div class='author'>
+                 	    <div class='mainInfoAuthor'>
+                 	       <div class='logoAndName'>
+		                 	  	<img class='channelLogo profileImg' src="profilePic.png" alt = "logo">
+		                 	    <div>
+			                 	    <h2 class='AuthorName'>The Odin Project</h2>
+			                 	    <p class='published'>Published: 16 January 2013</p>
+		                 	    </div>
+							</div>
+							<button class='subscribe'>SUBSCRIBE 705</button> 
+							</div>
+                        <div class='description'>
+                        	<p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at <a href="http://theodinproject.com">http://theodinproject.com</a>.</p>
+					        <div class='categoryDiv'>
+						        <p class='category'>Category:</p>
+						        <p class='category blue'>Science and Tech</p>
+					    	</div>
+					    </div>
+				</div>
+     		</div>
      		<div class = "comments">
      			 <div class= "headComments">
-     			 	<p>961 commentaires <i class = "fa fa-align-left	"></i></p>
-     			 	<img src="profilePic.png" class="profileImg" style="vertical-align: middle,"><input type="text" size = "60" style = "top : 20px">
-
+     			 	<p>961 comments<i class = "fa fa-align-left	"></i></p>
+     			 	<img src="profilePic.png" class="profileImg" alt="profileImg" style="vertical-align: middle,"><input type="text" size = "60" style = "top : 20px">
      			 </div> 
-                 <!-- comment1 -->
      			 <div class = "h5AndImg">
      			 	  <h5><img class="profileImg" src="profilePic.png" alt="profileImg">
      			 The Pseudo Name</h5>
      			 </div>
-     			 
      			 <div class = "idea">
      			   <p style = "">comment lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                    <span ><i class = "fa fa-hand-o-up"></i>  20</span>
 				   <span><i class = "fa fa-hand-o-down"></i></span>
 				</div>
-     			 
-                <!-- comment2 -->
      			 <div class = "h5AndImg">
      			     <h5><img class="profileImg" src="profilePic.png" alt="profileImg">The Pseudo Name</h5>
                  </div>
@@ -107,8 +90,6 @@
                      <span><i class = "fa fa-hand-o-up"></i>  20</span>
 				     <span><i class = "fa fa-hand-o-down"></i></span>
 				 </div>
-
-                 <!-- comment3 -->
      			 <div class = "h5AndImg">
      			   <h5><img class="profileImg" src="profilePic.png" alt="profileImg">The Pseudo Name</h5>
                  </div>
@@ -117,93 +98,83 @@
                     <span><i class = "fa fa-hand-o-up"></i>  20</span>
 				    <span><i class = "fa fa-hand-o-down"></i></span>
                  </div>
-     		</div> <!-- comments -->
-                
-                </div> <!-- videoSection -->
-            
-     		<!-- </div> -->
-     	</div> <!-- leftside -->
-
-
-        <!----------------Start right side  --> 
+     		</div> 
+                </div>
+     	</div> 
      	<div class = "rightSide">
-				<div id='firstSuggestion' class='vid'>
-					<h2>Next:</h2>
+				<div class='firstSuggestion vid'>
+					<h2 class ='Next'>Next:</h2>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>Make a GUI text editor C#</h5>
+					<p>Ricky's Tutorials</p>
+					<p>3,723 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug6.png" alt="VideoPicture">
 				</div>
 				</div>
 
 				<div class='vid'>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>Professor X (Saga)</h5>
+					<p>Professor X</p>
+					<p>12,487 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug1.jpg" alt="VideoPicture">
 				</div>
 				</div>
 				<div class='vid'>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>15 Sorting Algorithms in 6 Minutes</h5>
+					<p>Timo Bingman</p>
+					<p>23,553 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug2.jpg" alt="VideoPicture">
 				</div>
 				</div>
 				<div class='vid'>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>Eurythmics - Sweet Dreams</h5>
+					<p>EurythmicsVevo</p>
+					<p>51,583 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug3.jpg" alt="VideoPicture">
 				</div>
 				</div>
 				<div class='vid'>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>Grandson - Bury Me Face Down</h5>
+					<p>GrandsonVevo</p>
+					<p>14,753 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug4.jpg" alt="VideoPicture">
 				</div>
 				</div>
 				<div class='vid'>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>Youth - Daughter</h5>
+					<p>YouthVevo</p>
+					<p>63,284 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug5.jpg" alt="VideoPicture">
 				</div>
 				</div>
 				<div class='vid'>
 				<div class='suggestionText'>
-					<h5>Video name</h5>
-					<p>Lorem ipsum amet </p>
-					<p>Lorem ipsum amet</p>
+					<h5 class='suggestionName'>MIKA - Relax, Take It Easy</h5>
+					<p>MIKAVevo</p>
+					<p>23,553 views</p>
 				</div>
 				<div class='suggestionImg'>
-					<img src="https://via.placeholder.com/180x100">
+					<img src="sug7.jpg" alt="VideoPicture">
 				</div>
 				</div>
-			
      	</div>
-        <!----------------end right side  -->
      </main>
-     <!----------------End the main section    -->
-
 </body>
 </html>
