@@ -300,9 +300,26 @@ iframe {
 .comments{
 	box-sizing: border-box;
 }
+.headComments img
+{
+	position : relative;
+}
+.headComments input
+{
+	position : relative;
+	top : -15px;
+	height: 25px;
+}
+.iconComments{
+	margin-left: 15px;
+	margin-right : 15px;
+	color : gray
+}
 .h5AndImg
 {
 	position : relative;
+	margin-top: 20px;
+
 }
 .comments h5
 {
@@ -325,6 +342,10 @@ iframe {
 {
 	margin-left: 50px;
 	margin-right : 50px
+}
+.handdown
+{
+	margin-left: 5px;
 }
 /*.comments img{
     float : left;
