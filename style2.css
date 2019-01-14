@@ -1,4 +1,6 @@
 /********   Start Header ********/
+
+
 header {
 	position: fixed;
 	top       : 0;
@@ -26,7 +28,7 @@ header * {
 }
 
 #youtubeTitle {
-	font-size: 15px;
+	font-size: 10px;
 }
 
 #youtubeTitleIcons {
@@ -67,6 +69,11 @@ header * {
 	cursor: pointer;
 }
 
+#channelLogo {
+	width: 45px;
+	height: 45px;
+}
+
 #searchbar {
 	margin-top: 5px;
 }
@@ -88,6 +95,7 @@ cursor: pointer;
 /********   Start Main ********/
 main {
 	margin-top: 100px;
+/*	font-family: Verdana;*/
 }
 
 .leftSide {
@@ -117,6 +125,8 @@ iframe {
 #video-buttons{
 	margin : 0;
 	padding : 0;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
 }
 #video-buttons * {
 	font-size: 18px;
@@ -148,10 +158,56 @@ iframe {
 
 }
 
+.underVideo {
+	margin-bottom: 50px;
+}
+
 
 #video-buttons button {
 	float : right;
 	margin-right: 200px; 
+}
+
+#mainInfoAuthor {
+/*	display: inline;*/
+	width: 100%;
+}
+
+#mainInfoAuthor *{
+	display: inline-block;}
+
+#description {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.category {
+	display: inline-block;
+	width: 15%;
+}
+
+.blue {
+	color: blue;
+	cursor: pointer;
+}
+
+#channelLogo {
+	vertical-align: middle;
+}
+
+#logoAndName h2 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+#subscribe {
+	float: right;
+	font-size: 15px;
+	color: white;
+	background-color: red;
+	padding: 10px 30px;
+	border: none;
+	cursor: pointer;
 }
 
 
@@ -165,6 +221,18 @@ iframe {
     overflow: auto;
     margin-bottom: 10px ;
 }
+
+.vid h2{
+    font-size: 15px;
+    margin-top: 0px; 
+    font-weight: normal;
+}
+
+#firstSuggestion {
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+}
+
 .suggestionImg {
 	float: left;
 }
@@ -178,11 +246,19 @@ iframe {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 10px;
+
+}
+
+.suggestionText p {
+	vertical-align: top;
+	margin: 3px 0;
+	color: grey;
+	font-size: 13px;
 }
 
 .suggestionText h5{
-	font-size: 20px;
 	margin: 0;
+	font-size: 14px;
 }
 
 /*-----------------------comment*/
@@ -200,7 +276,7 @@ iframe {
 .comments p {
 	margin-top: 0;
 	margin-left: 40px;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: Arial;
 }
 span {
@@ -214,6 +290,3 @@ span {
 }
 
 
-#mainInfoAuthor *{
-	display: inline-block;
-}
