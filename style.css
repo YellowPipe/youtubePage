@@ -1,6 +1,6 @@
 /********   Start Header ********/
 body {
-	font-family: Roboto;
+	font-family: Roboto, serif;
 }
 
 header {
@@ -26,18 +26,18 @@ header * {
 }
 
 
-.youtubeTitleAll {
+.youtube-title-all {
 	position: absolute;
 	left: 10px;
 	margin-top: -5px;
 	margin-left: 10px;
 }
 
-.youtubeTitle {
+.youtube-title {
 	font-size: 10px;
 }
 
-.youtubeTitleIcons {
+.youtube-title-icons {
 	font-size: 20px;
 	margin-top: 20px;
 }
@@ -51,7 +51,7 @@ header * {
 	color: red;
 }
 
-.moreIcons {
+.more-icons {
 	position: absolute;
 	right: 10px;
 	top: 0;
@@ -66,13 +66,13 @@ header * {
 }
 
 
-.moreIcons .icon {
+.more-icons .icon {
 		position: relative;
 		top: -19px;
 		right: 0;
 }
 
-.profileImg {
+.profile-img {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -80,9 +80,10 @@ header * {
 	cursor: pointer;
 }
 
-.channelLogo {
+.channel-logo {
 	width: 45px;
 	height: 45px;
+	vertical-align: middle;
 }
 
 .searchbar {
@@ -106,20 +107,16 @@ cursor: pointer;
 /********   Start Main ********/
 main {
 	margin-top: 100px;
-/*	font-family: Verdana;*/
 }
 
-.leftSide {
+.left-side {
 	width: 60%;
 	float: left;
 	margin-left: 30px;
 }
 
-/*main *{
-	border: 1px solid red;
-}*/
 
-.videoSection {
+.video-section {
 	width : 800px;
 	display: block;
 	margin: 0 auto;
@@ -133,12 +130,6 @@ iframe {
     display : block;
 }
 
-.video-buttons{
-	margin : 0;
-	padding : 0;
-	border-bottom: 1px solid grey;
-	margin-bottom: 15px;
-}
 .video-buttons * {
 	font-size: 16px;
 	margin: -10px 10px 10px 0;
@@ -146,10 +137,6 @@ iframe {
 	color: grey;
 }
 
-.video-buttons p {
-	float: right;
-	margin-right: 30px;
-}
 
 .views {
 	float: left;
@@ -166,15 +153,22 @@ iframe {
 .video-buttons{
 	float : left;
 	width: 100%;
+	margin : 0;
+	padding : 0;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
 }
+
 .video-buttons p{
 	cursor: pointer;
+	float: right;
+	margin-right: 30px;
 }
-.videoSection h2{
+.video-section h2{
 	font-size: 18px;
 }
 
-.underVideo {
+.under-video {
 	margin-bottom: 50px;
 }
 
@@ -184,12 +178,12 @@ iframe {
 	margin-right: 200px; 
 }
 
-.mainInfoAuthor {
+.main-info-Author {
 /*	display: inline;*/
 	width: 100%;
 }
 
-.mainInfoAuthor *{
+.main-info-author *{
 	display: inline-block;
 	vertical-align: top;
 }
@@ -212,8 +206,7 @@ iframe {
 	margin-top: 0;
 }
 
-.categoryDiv {
-	/*vertical-align: top;*/
+.category-div {
 	width: 35%;
 }
 
@@ -228,11 +221,9 @@ iframe {
 	font-weight: bold;
 }
 
-.channelLogo {
-	vertical-align: middle;
-}
 
-.AuthorName {
+
+.author-name {
 	margin-top: 0;
 	margin-bottom: 30px;
 }
@@ -248,7 +239,7 @@ iframe {
 }
 
 
-.rightSide{
+.right-side{
 	width: 32%;
 	float: right;
 	margin-right: 50px;
@@ -260,43 +251,43 @@ iframe {
     cursor: pointer;
 }
 
-.Next{
+.next{
     font-size: 15px;
     margin-top: 0; 
     font-weight: normal;
 }
 
-.firstSuggestion {
+.first-suggestion {
 	border-bottom: 1px solid grey;
 	padding-bottom: 10px;
 }
 
-.suggestionImg {
+.suggestion-img {
 	float: left;
 
 }
 
-.suggestionImg img {
+.suggestion-img img {
     display: block;
     width: 180px;
 	height: 100px;
 }
 
-.suggestionText {
+.suggestion-text {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 10px;
 
 }
 
-.suggestionText p {
+.suggestion-text p {
 	vertical-align: top;
 	margin: 3px 0;
 	color: grey;
 	font-size: 13px;
 }
 
-.suggestionName{
+.suggestion-name{
 	margin: 0;
 	font-size: 14px;
 }
@@ -305,11 +296,10 @@ iframe {
 .comments{
 	box-sizing: border-box;
 }
-.headComments img
-{
+.head-comments img {
 	position : relative;
 }
-.headComments input
+.head-comments input
 {
 	position : relative;
 	top : -15px;
@@ -318,12 +308,12 @@ iframe {
 	border-right: none;
 	border-left: none;
 }
-.iconComments{
+.icon-comments{
 	margin-left: 15px;
 	margin-right : 15px;
 	color : gray
 }
-.h5AndImg
+.h5-and-img
 {
 	position : relative;
 	margin-top: 20px;
