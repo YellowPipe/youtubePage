@@ -1,6 +1,6 @@
 /********   Start Header ********/
 body {
-	font-family: Roboto;
+	font-family: Roboto, serif;
 }
 
 header {
@@ -130,12 +130,6 @@ iframe {
     display : block;
 }
 
-.video-buttons{
-	margin : 0;
-	padding : 0;
-	border-bottom: 1px solid grey;
-	margin-bottom: 15px;
-}
 .video-buttons * {
 	font-size: 16px;
 	margin: -10px 10px 10px 0;
@@ -143,10 +137,6 @@ iframe {
 	color: grey;
 }
 
-.video-buttons p {
-	float: right;
-	margin-right: 30px;
-}
 
 .views {
 	float: left;
@@ -163,9 +153,16 @@ iframe {
 .video-buttons{
 	float : left;
 	width: 100%;
+	margin : 0;
+	padding : 0;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
 }
+
 .video-buttons p{
 	cursor: pointer;
+	float: right;
+	margin-right: 30px;
 }
 .video-section h2{
 	font-size: 18px;
